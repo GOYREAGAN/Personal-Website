@@ -1,0 +1,89 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/* Navigation bar styling */
+#nav-bar{
+    padding:0;
+    margin:0;
+    width:fit-content;
+    text-decoration-style: none;
+    text-align:center;
+    overflow:hidden;
+    display:flex;
+}
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar li {
+    margin: 0 0.5rem;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+#nav-bar a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: #222;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+}
+
+#nav-bar a:hover,
+#nav-bar a:focus {
+    background-color: #006400; /* freeCodeCamp green */
+    color: #fff;
+}
+/* End of Navigation bar styling */
+
+/* form styling */
+form{
+    text-align:center;
+    font-weight:bold;
+    background-color:lightgray;
+    background-image:url('');/*look for an image and place it here*/
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    /* width:auto; */
+}
+/* form input{
+    border-radius: 50px;
+} */
+.cool{ /*submit button styling*/
+    color:white;
+    background-color:#006400;
+    cursor:pointer;
+    width:100px;
+    border-radius: 50px;
+}
+form footer{
+    margin-top:1.5rem;
+}
+
+form footer a{
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+/* End of form styling */
+
+/* textarea styling */
+textarea{
+    width:fit-content;
+    height:100px;
+}
+/* End of textarea styling */
+
+/* overall anchor/link styling */
+a{
+    text-decoration:none;
+}
+/* End of overall anchor/links styling */

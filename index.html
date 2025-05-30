@@ -10,7 +10,53 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <header>
+            <nav id="nav-bar">
+                <ul type="none">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects/portfolio">Projects/Portfolio</a></li>
+                    <li><a href="#skils">Skills</a></li>
+                    <li><a href="#resume/cv">Resume/CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home"></section>
+            <section id="projects/portfolio"></section>
+            <section id="skills"></section>
+            <section id="resume/cv"></section>
+            <section id="contact"> <!--create the form and add social media links down the form then
+                delete the comment-->
+                <form action="" method="post"><!--Make you own backend to send the data to when you learn Node.js-->
+                    <legend><strong>Let's get along</strong></legend>
+                    <label for="firstName"><ion-icon name="person-outline"></ion-icon> Name:</label><br>
+                    <input type="text" name="names" id="firstName" placeholder="Enter your first name" required>
+                    <br>
+                    <label for="secondName"><ion-icon name="person-outline"></ion-icon> Surname:</label><br>
+                    <input type="text" name="names" id="secondName" placeholder="Enter your second name" required>
+                    <br>
+                    <label for="gmail"><ion-icon name="mail-outline"></ion-icon> Email:</label><br>
+                    <input type="email" placeholder="Enter your email address" id="gmail" required>
+                    <br>
+                    <label for="message"><ion-icon name="send-outline"></ion-icon> Message:</label><br>
+                    <textarea name="send" id="message" placeholder="Type your message here, it's bigger than it looks 😁"></textarea>
+                    <br>
+                    <label for="submit"></label><br>
+                    <button id="submit" type="submit" class="cool">SEND</button>
+                    <br>
+                    <footer>
+                        <div><!--social media links-->
+                        <a href="https://discord.com/users/goy_reagan" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-discord">Discord</ion-icon></a>
+                        <a href="https://github.com/GOYREAGAN" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github">Github</ion-icon></a>
+                        <a href="https://www.linkedin.com/in/goy-reagan-5b1489356" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin">Linkedin</ion-icon></a>
+                        </div>
+                    </footer>
+                </form>
+            </section>
+        </main>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
     <footer></footer>
 </html>
